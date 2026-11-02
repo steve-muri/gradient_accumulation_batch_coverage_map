@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "steve-muri-infergw_jd009"
+name = "steve-muri-gradient_accumulation_batch_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出推理网关架构师·梯度累积与有效批量的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://steve-muri.github.io"
-Repository = "https://github.com/steve-muri/infergw_jd009"
-Issues = "https://github.com/steve-muri/infergw_jd009/issues"
+Repository = "https://github.com/steve-muri/gradient_accumulation_batch_coverage_map"
+Issues = "https://github.com/steve-muri/gradient_accumulation_batch_coverage_map/issues"
 
 [project.scripts]
-infergw_jd009 = "infergw_jd009:main"
+gradient_accumulation_batch_coverage_map = "gradient_accumulation_batch_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["infergw_jd009"]
+py-modules = ["gradient_accumulation_batch_coverage_map"]
